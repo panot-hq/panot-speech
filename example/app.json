@@ -14,7 +14,11 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "expo.modules.panotspeech.example"
+      "bundleIdentifier": "expo.modules.panotspeech.example",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app needs access to microphone for speech recognition.",
+        "NSSpeechRecognitionUsageDescription": "This app needs speech recognition to convert your speech to text."
+      }
     },
     "android": {
       "adaptiveIcon": {
