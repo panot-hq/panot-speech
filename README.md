@@ -1,8 +1,8 @@
 # Native iOS Module for expo apps
 
-higly based on https://github.com/jamsch/expo-speech-recognition repo, more complete and much stable, you should check it out as a better alternative.
-
 A native iOS speech-to-text module for Expo applications, built using Apple's Speech framework. This module provides real-time speech recognition with multi-language support, audio visualization, and comprehensive event handling. And will be used in the PANOT app.
+
+Higly based on https://github.com/jamsch/expo-speech-recognition repo, more complete and much stable, you should check it out as a better alternative.
 
 ## Features
 
