@@ -1,7 +1,7 @@
 {
   "name": "panot-speech",
   "version": "0.1.0",
-  "description": "PANOT's own iOS native module por speech recognition",
+  "description": "Advanced iOS speech-to-text module for Expo with multi-language support, audio visualization, and real-time transcription",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -18,6 +18,15 @@
   "keywords": [
     "react-native",
     "expo",
+    "speech-recognition",
+    "speech-to-text",
+    "voice-recognition",
+    "stt",
+    "transcription",
+    "ios",
+    "multi-language",
+    "audio-visualization",
+    "real-time",
     "panot-speech",
     "PanotSpeech"
   ],
