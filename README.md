@@ -1,21 +1,21 @@
-# PanotSpeech - Advanced Speech to Text for Expo
+# Native iOS Module for expo apps
 
-A powerful native iOS speech-to-text module for Expo applications, built using Apple's Speech framework. This module provides real-time speech recognition with multi-language support, audio visualization, and comprehensive event handling.
+A native iOS speech-to-text module for Expo applications, built using Apple's Speech framework. This module provides real-time speech recognition with multi-language support, audio visualization, and comprehensive event handling. And will be used in the PANOT app.
 
-## ✨ Features
+## Features
 
-- 🎤 **Real-time speech recognition** with interim results
-- 🌍 **Multi-language support** (English, Spanish, French, Italian, German, Portuguese, and more)
-- 📊 **Audio level monitoring** for visualizations and animations
-- 🎯 **Confidence scores** for transcription accuracy
-- 📱 **iOS native implementation** using Apple's Speech framework
-- 🔐 **Comprehensive permission handling** with Expo's permission system
-- 📡 **Event-driven architecture** with real-time updates
-- ⚡ **Thread-safe implementation** using Swift actors
-- 🎨 **TypeScript support** with full type definitions
-- 🚀 **Performance optimized** with DSP-accelerated audio processing
+- **Real-time speech recognition** with interim results
+- **Multi-language support** (English, Spanish, French, Italian, German, Portuguese, and more)
+- **Audio level monitoring** for visualizations and animations
+- **Confidence scores** for transcription accuracy
+- **iOS native implementation** using Apple's Speech framework
+- **Comprehensive permission handling** with Expo's permission system
+- **Event-driven architecture** with real-time updates
+- **Thread-safe implementation** using Swift actors
+- **TypeScript support** with full type definitions
+- **Performance optimized** with DSP-accelerated audio processing
 
-## 📦 Installation
+## Installation
 
 ```bash
 npm install panot-speech
@@ -27,7 +27,7 @@ or
 yarn add panot-speech
 ```
 
-## 🛠️ Setup
+## Setup
 
 ### iOS Permissions
 
@@ -54,7 +54,7 @@ After installing, rebuild your iOS app:
 npx expo run:ios
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ```typescript
 import PanotSpeechModule from "panot-speech";
@@ -98,7 +98,7 @@ function App() {
 }
 ```
 
-## 📚 API Reference
+## API Reference
 
 ### Methods
 
@@ -276,32 +276,13 @@ PanotSpeechModule.addListener("onVolumeChange", (event) => {
 });
 ```
 
-## 🌍 Supported Languages
-
-The module supports all languages available in Apple's Speech framework, including:
-
-- 🇺🇸 English (US) - `en-US`
-- 🇬🇧 English (UK) - `en-GB`
-- 🇪🇸 Spanish (Spain) - `es-ES`
-- 🇲🇽 Spanish (Mexico) - `es-MX`
-- 🇫🇷 French - `fr-FR`
-- 🇮🇹 Italian - `it-IT`
-- 🇩🇪 German - `de-DE`
-- 🇵🇹 Portuguese (Portugal) - `pt-PT`
-- 🇧🇷 Portuguese (Brazil) - `pt-BR`
-- 🇷🇺 Russian - `ru-RU`
-- 🇨🇳 Chinese (Simplified) - `zh-CN`
-- 🇯🇵 Japanese - `ja-JP`
-- 🇰🇷 Korean - `ko-KR`
-- And many more...
-
 **Check available languages:**
 
 ```typescript
 const { locales } = await PanotSpeechModule.getSupportedLocales();
 ```
 
-## 🎨 Audio Visualization Example
+## Audio Visualization Example
 
 Create stunning audio visualizations using the volume events:
 
@@ -365,7 +346,7 @@ function VolumeBar() {
 }
 ```
 
-## 📱 Complete React Component Example
+## Complete React Component Example
 
 ```typescript
 import React, { useState, useEffect } from "react";
@@ -510,7 +491,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Switching Languages Dynamically
 
@@ -543,7 +524,7 @@ if (state === "recognizing") {
 }
 ```
 
-## 📊 Performance
+## Performance
 
 - **Audio Processing**: DSP-accelerated using Apple's Accelerate framework
 - **Memory**: Optimized with Swift actors for thread-safety
@@ -552,14 +533,14 @@ if (state === "recognizing") {
 - **Latency**: <100ms for interim results
 - **Accuracy**: Leverages Apple's ML models (depends on language and audio quality)
 
-## ⚙️ Requirements
+## Requirements
 
 - **iOS**: 13.4+
 - **Expo SDK**: 49+
 - **React Native**: 0.72+
 - **Swift**: 5.4+
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Permissions Not Working
 
@@ -591,17 +572,17 @@ if (state === "recognizing") {
 - Check that speech recognition is actively running
 - Volume updates occur ~10 times per second
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 MIT
 
 ## 🙏 Credits
 
-Built with ❤️ using:
+Built using:
 
 - Apple's Speech Framework
 - Expo Modules API
