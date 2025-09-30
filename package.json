@@ -37,6 +37,13 @@
   "author": "angx1 <angel.rodriguez3rm@gmail.com> (https://github.com/angx1)",
   "license": "MIT",
   "homepage": "https://github.com/panot-hq/panot-speech#readme",
+  "files": [
+    "build",
+    "ios",
+    "src",
+    "expo-module.config.json",
+    "README.md"
+  ],
   "dependencies": {},
   "devDependencies": {
     "@types/react": "~19.1.0",
